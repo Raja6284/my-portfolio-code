@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raja-Developer Portfolio</title>
+    <link rel="stylesheet" href="<link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(151, 192, 203);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(43, 43, 223);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            margin: 0px 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.03rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            align-items: center;
+        }
+
+        .firstsection div {
+            width: 40%;
+
+        }
+
+        .leftsection {
+
+            font-size: 2rem;
+        }
+
+        .rightsection img {
+            width: 50%;
+            margin: 20px 0;
+        }
+
+        .purple {
+            color: purple;
+        }
+
+        #element {
+            color: rgb(33, 33, 95);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 60vh;
+        }
+
+        main hr {
+            margin: 48px;
+            color: rgb(6, 6, 6);
+        }
+
+        .secondsection h1 {
+            font-size: 1.8rem;
+        }
+
+        .textgray {
+            color: gray;
+        }
+
+        .secondsection .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 50px;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 60px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            width: 150px;
+            top: 26px;
+            /*font-size: 14px;*/
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 33px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+
+        }
+
+        footer {
+            background-color: rgb(3, 0, 3);
+            height: 200px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 105px;
+        }
+
+        .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 5px;
+        }
+        .leftsection .btn{
+            padding:12px;
+            background-color:plum;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .leftsection .buttons{
+            padding: 50px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Raja's Portfolio
+            </div>
+
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Raja</span>.<br>
+                I am a passionate<br>
+                <span id="element"></span>
+
+                <div class="buttons">
+                    <button class="btn">Download CV</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
+            </div>
+
+            <div class="rightsection">
+                <img src="developer.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="textgray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="fig1.png" alt="">
+                    <div class="vertical-title">
+                        matric(2019)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sapiente libero atque quo,
+                        corrupti consequatur excepturi quisquam numquam quibusdam doloribus?
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="fig1.png" alt="">
+                    <div class="vertical-title">
+                        matric(2019)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sapiente libero atque quo,
+                        corrupti consequatur excepturi quisquam numquam quibusdam doloribus?
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="fig1.png" alt="">
+                    <div class="vertical-title">
+                        matric(2019)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sapiente libero atque quo,
+                        corrupti consequatur excepturi quisquam numquam quibusdam doloribus?
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="fig1.png" alt="">
+                    <div class="vertical-title">
+                        matric(2019)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sapiente libero atque quo,
+                        corrupti consequatur excepturi quisquam numquam quibusdam doloribus?
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="fig1.png" alt="">
+                    <div class="vertical-title">
+                        matric(2019)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sapiente libero atque quo,
+                        corrupti consequatur excepturi quisquam numquam quibusdam doloribus?
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="fig1.png" alt="">
+                    <div class="vertical-title">
+                        matric(2019)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sapiente libero atque quo,
+                        corrupti consequatur excepturi quisquam numquam quibusdam doloribus?
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Raja's Develper portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Twiter</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>LinkedIn</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Twiter</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>LinkedIn</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Twiter</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>LinkedIn</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-rights">
+            Copyright &#169; www.rajaportfolio.com | rajaraja350parth@gmail.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Crber security analyst', 'Ethical Hacker', '&amp; Softrware Engineer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+
+</html>
